@@ -1,7 +1,6 @@
 <template>
   <div class="roundown-acara container-fluid text-center">
-      
-
+    
       <div class="roundown-content container text-center py-5">
         <div class="tanggal-countdown mb-4">
           <div class="tc-title m-auto">
@@ -11,6 +10,7 @@
               <h2 v-if="!expired">Rangkaian Acara Akan Diselenggarakan</h2>
               <h2 v-else>Acara Sedang/Sudah Berlangsung</h2>
           </div>
+
           <div class="tanggal-acara pt-3">
               <h1>{{ tanggal }}</h1>
           </div>

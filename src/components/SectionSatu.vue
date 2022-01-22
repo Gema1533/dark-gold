@@ -5,9 +5,10 @@
             <div class="card-sidebar container">
                 <div class="cover-text text-center rounded ">
                     <div class="header-side">
-                        <p class="fs-3" >Undangan ernikahan</p>
+                        <p class="fs-3" >Undangan Pernikahan</p>
                         <h1>{{ namaPria }} &  {{ namaWanita }}</h1> 
                     </div>
+                    
                     <div class="footer-side">
                     <p class="fs-4 mt-2 ">Kpd Bpk/Ibu/Saudari/i <br>Nama Tamu Undangan</p> 
                         <label for="check">
@@ -21,6 +22,7 @@
   <div class="cover container-fluid">
       <img src="../assets/images/SecImg/vector1.png" alt="Vector" id="vector1">
       <img src="../assets/images/SecImg/vector2.png" alt="Vector" id="vector2">
+      
       <div class="cover-text  text-center">
           <p>The Wedding of</p>
           <h1>{{ namaPria }} <br> & <br> {{ namaWanita }}</h1>
@@ -87,15 +89,13 @@ export default {
     #check:checked~.sidebar {
       top:-1000rem;
     }
-
-    
      .cover {
         min-height: 100vh;
         background: url("../assets/images/SecImg/bgimage.png");
         display: grid;
         place-items: center;
         padding: 2rem;
-        position: relative;
+      
     }
 
     :root {
